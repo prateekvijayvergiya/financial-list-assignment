@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+import TableHeader from './components/header'
+import TableBody from './components/body'
+import useSort from './hooks/useSort'
+import { TableCaption, TableStyled } from './appStyles'
+
+const App: React.FC = () => {
+  const { items, handleSortChange, sortConfig } = useSort()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <TableStyled>
+      <TableCaption>Financial instruments</TableCaption>
+      <TableHeader {...{ handleSortChange, sortConfig }} />
+      <TableBody {...{ items }} />
+    </TableStyled>
+  )
 }
 
-export default App;
+export default App

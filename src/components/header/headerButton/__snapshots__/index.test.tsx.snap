@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderButton renders correctly 1`] = `
+<th
+  className="sc-bdnxRM cnKWit"
+  onClick={[Function]}
+>
+  <button
+    className="sc-gtsrHT ddXyUD"
+  >
+    Price
+  </button>
+</th>
+`;

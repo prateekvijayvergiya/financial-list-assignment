@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableBody renders correctly 1`] = `
+<tbody>
+  <tr
+    className="sc-bdnxRM hZOTJo"
+  >
+    <td
+      className="sc-gtsrHT JPHAX"
+    >
+      Credit
+    </td>
+    <td
+      className="sc-dlnjwi crbEhw"
+    >
+      Rs. 
+      123
+    </td>
+    <td
+      className="sc-gtsrHT JPHAX"
+    >
+      ALPHA
+    </td>
+  </tr>
+</tbody>
+`;

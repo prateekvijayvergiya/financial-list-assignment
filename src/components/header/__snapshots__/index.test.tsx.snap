@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeader renders correctly 1`] = `
+<thead>
+  <tr>
+    <HeaderButton
+      handleSortChange={[MockFunction]}
+      sortConfig={null}
+      sortKey="assetClass"
+      title="Asset Class"
+    />
+    <HeaderButton
+      handleSortChange={[MockFunction]}
+      sortConfig={null}
+      sortKey="price"
+      title="Price"
+    />
+    <HeaderButton
+      handleSortChange={[MockFunction]}
+      sortConfig={null}
+      sortKey="ticker"
+      title="Ticker"
+    />
+  </tr>
+</thead>
+`;
